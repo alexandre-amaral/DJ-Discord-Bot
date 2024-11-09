@@ -49,17 +49,17 @@ O FFmpeg é necessário para processar o áudio. Siga as instruções abaixo de 
 1. Instale o Homebrew, se ainda não tiver:
 /bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)”
 2. Use o Homebrew para instalar o FFmpeg:
-```brew install ffmpeg````
+```brew install ffmpeg```
 
 #### Linux
 
 1. Atualize o sistema e instale o FFmpeg:
-```sudo apt update && sudo apt install ffmpeg````
+```sudo apt update && sudo apt install ffmpeg```
 
 ## Instalação das Dependências
 
 No terminal, navegue até o diretório do projeto e execute o seguinte comando para instalar as dependências do bot:
-```pip install -r requirements.txt````
+```pip install -r requirements.txt```
 
 > **Nota**: Certifique-se de que o arquivo `requirements.txt` contém:
 > ```
@@ -72,7 +72,7 @@ No terminal, navegue até o diretório do projeto e execute o seguinte comando p
 
 1. No terminal, navegue até o diretório do projeto e execute o bot com o comando:
 
-```python bot.py````
+```python bot.py```
 
 2. Se tudo estiver correto, o bot estará online e pronto para uso no seu servidor do Discord!
 
